@@ -1,0 +1,22 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="row-height">
+  <mat-card fxFlex="30%" class="card-jugador">
+      <mat-card-title>Crear jugador</mat-card-title>
+
+      <mat-card-content fxLayout="column">
+          <mat-form-field>
+              <input matInput placeholder="Nombre jugador" required>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Posición</mat-label>
+            <mat-select required>
+                <mat-option *ngFor="let posicion of posiciones"
+                            [value]="posicion.id">
+                    {{ posicion.nombre }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+      </mat-card-content>
+
+      <button mat-raised-button color="primary">Guardar</button>
+  </mat-card>
+</div>
