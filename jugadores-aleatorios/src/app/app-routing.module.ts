@@ -6,8 +6,7 @@ const routes: Routes = [
     path: 'jugadores',
     loadChildren: () =>
       import('./shared/shared.module').then((m) => m.SharedModule),
-  },
-  { path: '**', redirectTo: 'jugadores' },
+  }
 ];
 
 @NgModule({

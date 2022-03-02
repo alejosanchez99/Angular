@@ -1,0 +1,40 @@
+﻿
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+
+# Business Intelligence projects
+*.rdl.data
+
+#Nugets
+/*/packages
+
+#Visual Studio Cache
+/App/.vs/*
+/.vs
+
+#SQL Projects
+*.rsuser
+*.dbmdl
+*.jfm
+
+#StyleCop
+*.Cache
+/App/TestResults
+
+/Equipo-aleatorio-backend/EquipoAleatorio/.vs/EquipoAleatorio

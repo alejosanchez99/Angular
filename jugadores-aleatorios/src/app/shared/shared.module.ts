@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { JugadoresModule } from '../pages/jugadores.module';
 
 import { SharedRoutingModule } from "./shared-routing.module";
+import { BotonFlotanteComponent } from '../components/boton-flotante/boton-flotante.component';
 
 @NgModule({
   declarations: [HomeComponent],
